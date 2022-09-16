@@ -29,10 +29,13 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#sobre" class="nav-link active p-3">Sobre</a>
+                        <a href="#" class="active nav-link p-3">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a href="#quem-somos" class="nav-link p-3">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link p-3">Sobre</a>
                     </li>
                     <li class="nav-item">
                         <a href="#serviços" class="nav-link p-3">Serviços</a>
@@ -47,7 +50,7 @@
     </nav>
 
     <!-- hero -->
-    <div class="hero" id="#home" >
+    <div class="hero" id="#" >
         <div class="container py-5">
             <div class="row     flex-lg-row-reverse align-items-center g-5 py-5">
               <div class="col-10 col-sm-8 col-lg-6">
@@ -67,7 +70,7 @@
 
 
     <!-- quem somos -->
-    <section class="page-quem_somos bg-primary">
+    <section class="page-quem_somos bg-primary d-flex justify-content-center align-items-center" id="quem-somos">
         <div class="container py-5">
             <h2 class="text-center text-white">
                 Quem Somos
@@ -75,16 +78,16 @@
 
             <div class="row g-3">
                 <!-- instructor 1 -->
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="card bg-light">
                         <div class="card-body text-center">
                             <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="instructor1">
 
                             <h3 class="card-title mb-3">
-                                John Doe
+                                Gustavo Ferreira
                             </h3>
 
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus a corporis placeat exercitationem dicta esse.</p>
+                            <p class="card-text">Luso-brasileiro, advogado, inscrito na Ordem dos Advogados de Portugal e do Brasil, formado em Direito pela Universidade do Estado do Rio de Janeiro (UERJ), com mais de 20 (vinte) anos de experiência na advocacia consultiva, sou um dos parceiros que te ajudará nesta jornada.</p>
 
                             <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                             <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -94,16 +97,16 @@
                     </div>
                 </div>
                 <!-- instructor 2 -->
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/5.jpg" class="rounded-circle mb-3" alt="instructor1">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" class="rounded-circle mb-3" alt="instructor1">
 
                             <h3 class="card-title mb-3">
-                                Otavio Planire
+                                Kelly Pinto
                             </h3>
 
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus a corporis placeat exercitationem dicta esse.</p>
+                            <p class="card-text">Luso-brasileira, empreendedora, economista e profissional de Comunicação. Minha experiência em Relocation somada ao conhecimento adquirido, ao longo de uma vida profissional, serão uma mais valia no seu processo de mudança, tornando-o mais prático, econômico e acolhedor.</p>
 
                             <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                             <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -113,16 +116,16 @@
                     </div>
                 </div>
                 <!-- instructor 3 -->
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="card bg-light">
                         <div class="card-body text-center">
                             <img src="https://randomuser.me/api/portraits/women/70.jpg" class="rounded-circle mb-3" alt="instructor1">
 
                             <h3 class="card-title mb-3">
-                                Cristina Moren
+                                Jaqueline Cherem
                             </h3>
 
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus a corporis placeat exercitationem dicta esse.</p>
+                            <p class="card-text">Advogada, mãe e imigrante, nesta ordem. Especializada em Compliance Anticorrupção pela LEC Academy e PUC-Rio, tenho um enorme prazer em exercer a minha profissão no país em que escolhi viver com minha família e ainda poder auxiliar pessoas que compartilham deste mesmo sonho.</p>
 
                             <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                             <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -146,14 +149,126 @@
                     <h2>
                         O que é o Projeto Portugal?
                     </h2>
-
                         Projeto Portugal nasce do reencontro de três ex-colegas de trabalho que cruzaram o Atlântico e desembarcaram em Portugal em momentos e trajetórias distintas, mas com o mesmo anseio: a busca por qualidade de vida!
 
                         <br><br>Conhecendo os inúmeros desafios envolvidos nesse processo, decidimos unir o conhecimento técnico com a vivência de anos em Portugal, para oferecer, com ética, transparência e profissionalismo, um serviço de excelência com ótima relação custo-benefício e assim tornar o seu sonho realidade.
                     </p>
                 </div>
+            </div>            
+        </div>
+    </section>
+
+
+    <!-- question accordion -->
+    <section class="py-5" id="question">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Perguntas Frequentes
+            </h2>
+
+            <!-- item 1 -->
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Aonde vocês estão localizados?
+                    </button>
+                  </h2>
+                  <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptates aut voluptatum consequuntur nulla, numquam, ab obcaecati qui nisi aliquid ullam natus libero perferendis eius aperiam. Eligendi totam, ab animi illo facere doloribus eum impedit nulla sunt repellat a earum exercitationem labore dolore perferendis sit ea beatae reiciendis quod nam?</div>
+                  </div>
+
+                <!-- item 2 -->
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" aria-expanded="false" aria-controls="flush-collapseOne">
+                        O serviço é todo feito de forma remota?
+                      </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptates aut voluptatum consequuntur nulla, numquam, ab obcaecati qui nisi aliquid ullam natus libero perferendis eius aperiam. Eligendi totam, ab animi illo facere doloribus eum impedit nulla sunt repellat a earum exercitationem labore dolore perferendis sit ea beatae reiciendis quod nam?</div>
+                    </div>
+                </div>
+
+                <!-- item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" aria-expanded="false" aria-controls="flush-collapseOne">
+                        O que eu preciso saber antes de contratar o serviço?
+                      </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptates aut voluptatum consequuntur nulla, numquam, ab obcaecati qui nisi aliquid ullam natus libero perferendis eius aperiam. Eligendi totam, ab animi illo facere doloribus eum impedit nulla sunt repellat a earum exercitationem labore dolore perferendis sit ea beatae reiciendis quod nam?</div>
+                    </div>
+                </div>
+
+                <!-- item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Uma assessoria remota é mais cara que uma presencial?
+                      </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptates aut voluptatum consequuntur nulla, numquam, ab obcaecati qui nisi aliquid ullam natus libero perferendis eius aperiam. Eligendi totam, ab animi illo facere doloribus eum impedit nulla sunt repellat a earum exercitationem labore dolore perferendis sit ea beatae reiciendis quod nam?</div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+
+    <!-- serviços -->
+    <section class="py-5 bg-primary d-flex justify-content-center align-items-center" id="">
+    <div class="container py-5">
+        <h2 class="text-center text-white">
+            Nossos serviços
+        </h2>
+
+        <div class="row g-3">
+            <!-- instructor 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3">
+
+                        <h3 class="card-title mb-3">
+                            Nacionalidade
+                        </h3>
+
+                        <p class="card-text">A nacionalidade portuguesa pode ser obtida por nascimento em território nacional, por ascendência portuguesa, por casamento, por tempo de residência e por ser descendente de judeus sefarditas portugueses.</p>
+                    </div>
+                </div>
             </div>
-            
+            <!-- instructor 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" class="rounded-circle mb-3" alt="instructor1">
+
+                        <h3 class="card-title mb-3">
+                            Kelly Pinto
+                        </h3>
+
+                        <p class="card-text">Luso-brasileira, empreendedora, economista e profissional de Comunicação. Minha experiência em Relocation somada ao conhecimento adquirido, ao longo de uma vida profissional, serão uma mais valia no seu processo de mudança, tornando-o mais prático, econômico e acolhedor.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- instructor 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/70.jpg" class="rounded-circle mb-3" alt="instructor1">
+
+                        <h3 class="card-title mb-3">
+                            Jaqueline Cherem
+                        </h3>
+
+                        <p class="card-text">Advogada, mãe e imigrante, nesta ordem. Especializada em Compliance Anticorrupção pela LEC Academy e PUC-Rio, tenho um enorme prazer em exercer a minha profissão no país em que escolhi viver com minha família e ainda poder auxiliar pessoas que compartilham deste mesmo sonho.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     
